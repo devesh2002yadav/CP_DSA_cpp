@@ -41,6 +41,8 @@ code 2) - O(n)
 
 */
 
+// Code 1)
+
 class Solution {
 public:
     bool isRectangleCover(vector<vector<int>>& rectangles) 
