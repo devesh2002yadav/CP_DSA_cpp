@@ -82,6 +82,8 @@ public:
     }
 };
 
+// Code 2)
+
 class Solution {
 public:
     bool isRectangleCover(vector<vector<int>>& rectangles) {
