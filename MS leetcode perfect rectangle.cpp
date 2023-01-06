@@ -35,6 +35,10 @@ are +1 or -1.
 
 Use structure like unordered_map, the complexity is O(n). The following code is easy to understand but costs O(n logn) because I used map rather than unordered_map, 
 since there's no default hash for pair<int, int>:
+
+Code 1) - O(nlogn)
+code 2) - O(n)
+
 */
 
 class Solution {
