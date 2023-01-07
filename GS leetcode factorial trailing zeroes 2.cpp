@@ -6,11 +6,11 @@ public:
         for(int i=5; i<=n; i=i+5)
         {
             int x=i;
-        while(x%5==0&&x>0)
-        {
-           five++;
-           x/=5;
-        }
+            while(x%5==0&&x>0)
+            {
+               five++;
+               x/=5;
+            }
         }
         return five;
     }
