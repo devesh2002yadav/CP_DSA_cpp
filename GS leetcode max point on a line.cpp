@@ -11,6 +11,7 @@ public:
             for(int j=i+1; j<n; j++)
             {
                 float slope=(float)(p[i][1]-p[j][1])/(float)(p[i][0]-p[j][0]);
+                // slope = infinite  
                 if((p[i][1]-p[j][1]<0)&&(p[i][0]-p[j][0]==0))
                 {
                     dm[abs(slope)]++;
