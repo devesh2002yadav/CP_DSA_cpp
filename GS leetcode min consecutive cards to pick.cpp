@@ -13,7 +13,7 @@ public:
             }
             dm[cards[i]]=i;
         }
-        if(ans==1000000) return -1;
+        if(ans==1000000) return -1; // or INT_MAX
         else return ans;
     }
 };
