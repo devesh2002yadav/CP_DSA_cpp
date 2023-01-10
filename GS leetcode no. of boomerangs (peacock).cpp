@@ -8,7 +8,7 @@ public:
         if(n<3) return 0;
         for(int i=0; i<n; i++)
         {
-            map<int, int> dm;
+            map<int, int> dm; // mapping distance and their freq
             for(int j=0; j<n; j++)
             {
                 if(i!=j)
