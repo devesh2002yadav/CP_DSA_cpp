@@ -21,7 +21,7 @@ public:
         {
             if(x.second>1)
             {
-                ans+=(x.second)*(x.second-1);
+                ans+=(x.second)*(x.second-1); // no. of permuatation
             }
         }
         }
