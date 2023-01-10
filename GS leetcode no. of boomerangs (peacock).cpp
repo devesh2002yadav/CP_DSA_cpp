@@ -14,7 +14,7 @@ public:
                 if(i!=j)
                 {
                    int d=(p[i][0]-p[j][0])*(p[i][0]-p[j][0])+(p[i][1]-p[j][1])*(p[i][1]-p[j][1]);
-                   dm[d]++;
+                   dm[d]++; // distance b/w i & j
                 }
             }
         for(auto x:dm)
