@@ -2,7 +2,7 @@ class Solution {
 public:
     int minimumCardPickup(vector<int>& cards) 
     {
-        int ans=1000000;
+        int ans=1000000; // or INT_MAX
         int n=cards.size();
         unordered_map<int, int> dm;
         for(int i=0; i<n; i++)
