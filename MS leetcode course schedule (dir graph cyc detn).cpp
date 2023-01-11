@@ -1,7 +1,7 @@
 #include<unordered_map>
 #include<list>
 
-// dfs
+// dfs to check cycle in directed graph
 
 class Solution {
 public:
