@@ -1,6 +1,8 @@
 #include<unordered_map>
 #include<list>
 
+// dfs
+
 class Solution {
 public:
     
@@ -36,7 +38,7 @@ bool checkDFSCycle(int node, unordered_map<int, bool> &vis, unordered_map<int, b
             if(cycleYes) return true;
         }
         
-        // here both vis and dfsvis are true
+        // here both vis and dfsvis are true ...
         else if(dfsvis[nbr])
         {
             return true;
