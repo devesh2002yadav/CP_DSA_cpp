@@ -18,6 +18,7 @@ i = 3, dp[i] = dpZero[i] + dpOne[i] = 3 + 2 = 5, combinations are {"000", "001",
 
 Process from the most significant bit down to the least significant bit, k = 30...0, if the k_th bit of n is 1, we consider that bit as zero 
 (to avoid consecutive ones) then we calculate number of combination of binary strings (without consecutive ones) of length k, that is dp[k].
+
 Consider the example n = 21 binary representation as 10101, we have following valid combinations (where x can be 0 or 1) which less than or equal to n:
 ✔️ Group 1: 0xxxx, there are dp[4] = 8 combinations
 ✔️ Group 2: 100xx, there are dp[2] = 3 combinations.
