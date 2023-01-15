@@ -11,7 +11,7 @@ class Solution {
         
         sb.append(a/b);
         a = a%b;
-        
+        // java
         if(a > 0)
             sb.append('.');
         
