@@ -11,7 +11,7 @@ public:
         {
             if(nums[i]>b) return true;
             if(nums[i]>a) b=min(nums[i], b);
-            a=min(nums[i],a);
+            a=min(nums[i], a);
         } 
         return false;
     }
