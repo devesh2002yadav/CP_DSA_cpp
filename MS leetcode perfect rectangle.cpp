@@ -42,7 +42,7 @@ code 2) - O(n)
 
 */
 
-// Code 1) case
+// Code 1) case ...
 
 class Solution {
 public:
@@ -83,7 +83,7 @@ public:
     }
 };
 
-// Code 2) case
+// Code 2) case ...
 
 class Solution {
 public:
