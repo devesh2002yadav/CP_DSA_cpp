@@ -1,4 +1,5 @@
 /*
+
 Let's say that the rectangles form a picture (including the information that whether each grid is covered and how much times the grid is covered. A grid is an 1*1 area
 where all the vertex of the area have integer coordinates). We want to use a set of values of points to represent this picture.
 We may record the value of each points of the picture. When the picture is empty we say that the value of each point is 0. For each rectangle added to this picture, 
