@@ -1,6 +1,7 @@
 class Solution {
 public:
-    vector<int> rearrangeBarcodes(vector<int>& barcodes) {
+    vector<int> rearrangeBarcodes(vector<int>& barcodes) 
+    {
     unordered_map<int, int> mp;
     int fmax = 0, nmax, ln = barcodes.size();
     for (int n:barcodes) 
