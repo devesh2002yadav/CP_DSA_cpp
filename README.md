@@ -1,2 +1,2 @@
-# leetcode_top_comp_imp_Q
-6companies30days challenge, leetcode important ques of top 6 comp
+# Data Structures and Algorithms , Competitive Programming based questions
+1) Leetcode Important Companywise questions
